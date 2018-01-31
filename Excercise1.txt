@@ -1,0 +1,45 @@
+** tugas 1 **
+STORE "massa" with 600kg
+STORE "acceleration" with 2 m/s2
+STORE "area" without any value
+CALCULATE "massa" times "acceleration"
+SET "area" value with calculation result
+
+DISPLAY "area"
+
+
+ ** tugas 2 **
+ STORE "year" with "number"
+
+ IF "year" mod 4 equal to 0 THEN
+     IF "year" mod 100 not equal to 0 
+      ELSE IF "year" mod 4 equal to 0, THEN
+        IF "year" mod 100 equal to 0 THEN
+          IF "year" mod 400 equal to 0
+  DISPLAY "year adalah tahun kabisat"
+    ELSE
+   DISPLAY "year bukan tahun kabisat"
+
+DISPLAY "year"
+
+
+
+** Tugas 3 **
+STORE "laundry" with 0
+WHILE "laundry" <20
+  ADD "laundry" by 1
+  
+DISPLAY "Laundry process"  
+
+
+** Tugas 4 **
+STORE "count" to 0
+WHILE "count" < 40
+  ADD "count" by 1
+
+IF “kudu pendek“ 
+  DISPLAY "mendapat pujian dari guru"
+ELSE
+  DISPLAY "mendapat hukumam dari guru"
+
+DISPLAY "count"
