@@ -13,7 +13,7 @@ console.log(word+" "+second+" "+third+" "+fourth+" "+fifth+" "+sixth+" "+seventh
 console.log("")
 //Index accessing - 1 by 1.
 var word = 'wow JavaScript is so cool';
-var exampleFirstWord = word[0] + word[1] + word[2];
+var FirstWord = word[0] + word[1] + word[2];
 var secondWord; // do your own!
 var thirdWord; // do your own!
 var fourthWord; // do your own!
