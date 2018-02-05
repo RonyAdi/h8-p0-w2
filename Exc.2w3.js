@@ -7,7 +7,7 @@
 
 function balikString() {
     var arr = [];
-    var kata = 'hello world'
+    var kata = 'hello world!'
     for (var i = kata.length-1; i >= 0; i--){
         arr = arr + kata[i]
     }
